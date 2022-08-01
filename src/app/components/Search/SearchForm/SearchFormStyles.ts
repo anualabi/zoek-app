@@ -8,3 +8,11 @@ export const StyledSearchForm = styled.form`
   position: relative;
   width: 100%;
 `;
+
+export const StyledClearSearch = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+`;
