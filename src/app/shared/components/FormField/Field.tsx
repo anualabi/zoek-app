@@ -1,5 +1,5 @@
 import React from 'react';
-import { useUniqueId } from '../../utils/useUniqueId'
+import { useUniqueId } from '../../utils/useUniqueId';
 import { FieldContext } from './FieldContext';
 import { Label } from './Label';
 import { Input } from './Input';
