@@ -8,3 +8,14 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.loading,
+.not-found {
+  color: gray;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
