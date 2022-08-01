@@ -1,9 +1,9 @@
+import Search from "./components/Search/Search";
+
 function App() {
   return (
-    <div className="App">
-      <p>
-        To get started, edit <code>src/App.js</code> and save to reload.
-      </p>
+    <div className="container">
+      <Search />
     </div>
   );
 }
