@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.27.2",
     "canned": "^0.3.13",
     "concurrently": "^6.2.1",
     "nanoid": "3.3.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-highlight-words": "^0.18.0",
+    "react-query": "3.39.1",
     "styled-components": "^5.3.5"
   },
   "scripts": {
@@ -44,6 +47,7 @@
     "@types/prettier": "^2.6.4",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
+    "@types/react-highlight-words": "^0.16.4",
     "@types/styled-components": "^5.1.25",
     "prettier": "^2.7.1",
     "react-scripts": "^4.0.3",
