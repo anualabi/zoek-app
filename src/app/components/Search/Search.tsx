@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import SearchForm from './SearchForm/SearchForm';
 import SearchResult from './SearchResult/SearchResult';
-import { useSearchQuery } from '../../shared/hooks/search';
+import { useSearchQuery } from '../../shared/hooks/api/search';
 import { StyledSearch, StyledResult } from './SearchStyles';
 
 const Search = () => {

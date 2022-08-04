@@ -1,8 +1,7 @@
 import axios from 'axios';
 import { useQuery } from 'react-query';
-import { ISearch } from '../types/search';
-
-const queryUrl = 'http://localhost:3000/search';
+import { queryUrl } from '../../utils/api';
+import { ISearch } from '../../types/search';
 
 export const getSearchResult = async (query: string): Promise<ISearch> => {
   const { data } = await axios.get(`${queryUrl}?q=${query}`);

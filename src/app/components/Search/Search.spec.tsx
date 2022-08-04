@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { ISearch } from '../../shared/types/search';
 import { renderWithQueryClient } from '../../shared/utils/test';
-import * as data from '../../shared/hooks/search';
+import * as data from '../../shared/hooks/api/search';
 import Search from './Search';
 
 const getInputNode = () => screen.getByPlaceholderText(/zoeken/i) as HTMLInputElement;
