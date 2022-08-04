@@ -19,14 +19,16 @@ const Search = () => {
   );
 
   return (
-    <StyledSearch>
-      <SearchForm
-        searchQuery={searchTerm}
-        handleSearchQuery={(e) => setSearchTerm(e)}
-        handleClearSearch={() => setSearchTerm('')}
-      />
-      {searchTerm.length > 1 && <StyledResult>{searchResult}</StyledResult>}
-    </StyledSearch>
+    <div className="container">
+      <StyledSearch>
+        <SearchForm
+          searchQuery={searchTerm}
+          handleSearchQuery={(e) => setSearchTerm(e)}
+          handleClearSearch={() => setSearchTerm('')}
+        />
+        {searchTerm.length > 1 && <StyledResult>{searchResult}</StyledResult>}
+      </StyledSearch>
+    </div>
   );
 };
 

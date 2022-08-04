@@ -1,10 +1,14 @@
+import NormalizeStyles from './NormalizeStyles';
+import BaseStyles from './BaseStyles';
 import Search from './components/Search/Search';
 
 function App() {
   return (
-    <div className="container">
+    <>
+      <NormalizeStyles />
+      <BaseStyles />
       <Search />
-    </div>
+    </>
   );
 }
 
